@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20"
+  },
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadiyaldo/https---github.com-fadiyaldo-nodeApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fadiyaldo/https---github.com-fadiyaldo-nodeApi/issues"
+  },
+  "homepage": "https://github.com/fadiyaldo/https---github.com-fadiyaldo-nodeApi#readme",
+  "description": ""
+}
