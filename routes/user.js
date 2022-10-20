@@ -1,7 +1,8 @@
 const router = require("express").Router();
-const User = require("../models/User");
 
-router.get("/usertest",  (req, res)=>{
-    res.send("user test is successfull");
+router.put("/:id", verifyToken, (req,res)=>{
+    if(req.user.id === req.params.id)
 })
+
+
 module.exports = router;
